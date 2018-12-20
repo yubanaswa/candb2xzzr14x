@@ -1,0 +1,154 @@
+﻿<!-- Header area -->
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+<div id="header-wrapper" class="header-slider">
+    <header class="clearfix">
+        <div class="logo">
+            <img src="img/logo.png" alt="" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div id="main-flexslider" class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <p class="home-slide-content">
+                                    <strong>Sustainable</strong> rural tourism
+                                </p>
+                            </li>
+                            <li>
+                                <p class="home-slide-content">
+                                    Village and <strong>crafts</strong> tours
+                                </p>
+                            </li>
+                            <li>
+                                <p class="home-slide-content">
+                                    Eco tourism with a <strong>difference</strong>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end slider -->
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<!-- spacer section -->
+<section class="spacer green">
+    <div class="container">
+        <div class="row">
+            <div class="span6 alignright flyLeft">
+                <blockquote class="large">
+                    Simply by travelling with a conscience, you can make a difference in the lives of others
+                </blockquote>
+            </div>
+            <div class="span6 aligncenter flyRight">
+                <i class="icon-lightbulb icon-10x"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end spacer section -->
+<!-- team section -->
+@Html.Partial("_Team");
+<!-- end team section -->
+<!-- section: services -->
+@Html.Partial("_Services");
+<!-- end section: services -->
+<!-- section: trips -->
+<section id="trips" class="section">
+    <div class="container clearfix">
+        <h4>Our Trips</h4>
+        <!-- portfolio filter -->
+        <div class="row">
+            <div class="span3">
+                <div class="home-post">
+                    <div class="post-image">
+                        <img class="max-img" src="img/blog/img1.jpg" alt="" />
+                    </div>
+                    <div class="post-meta">
+                        <i class="icon-file icon-2x"></i>
+                        <span class="date">June 19, 2013</span>
+                        <span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
+                    </div>
+                    <div class="entry-content">
+                        <h5><strong><a href="#">New design trends</a></strong></h5>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+                        </p>
+                        <a href="#" class="more">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="home-post">
+                    <div class="post-image">
+                        <img class="max-img" src="img/blog/img2.jpg" alt="" />
+                    </div>
+                    <div class="post-meta">
+                        <i class="icon-file icon-2x"></i>
+                        <span class="date">June 19, 2013</span>
+                        <span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
+                    </div>
+                    <div class="entry-content">
+                        <h5><strong><a href="#">Retro is great</a></strong></h5>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+                        </p>
+                        <a href="/Trips" class="more">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="home-post">
+                    <div class="post-image">
+                        <img class="max-img" src="img/blog/img3.jpg" alt="" />
+                    </div>
+                    <div class="post-meta">
+                        <i class="icon-file icon-2x"></i>
+                        <span class="date">June 22, 2013</span>
+                        <span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
+                    </div>
+                    <div class="entry-content">
+                        <h5><strong><a href="#">Isometric mockup</a></strong></h5>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+                        </p>
+                        <a href="/Trips" class="more">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="home-post">
+                    <div class="post-image">
+                        <img class="max-img" src="img/blog/img4.jpg" alt="" />
+                    </div>
+                    <div class="post-meta">
+                        <i class="icon-file icon-2x"></i>
+                        <span class="date">June 27, 2013</span>
+                        <span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
+                    </div>
+                    <div class="entry-content">
+                        <h5><strong><a href="#">Free icon set</a></strong></h5>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
+                        </p>
+                        <a href="/Trips" class="more">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aligncenter">
+            <a href="/Trips" class="btn btn-large btn-theme">More trips</a>
+        </div>
+        
+    </div>
+</section>
+<!-- end section: trips -->
+<!-- section: contact -->
+@Html.Partial("_ContactFormGeneric");
+<!-- end section: contact -->
