@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RfxDal", "RfxDal\RfxDal.csproj", "{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RfxDalTests", "RfxDalTests\RfxDalTests.csproj", "{C4A776CE-546F-423C-8915-FD919A9EEDB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A776CE-546F-423C-8915-FD919A9EEDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A776CE-546F-423C-8915-FD919A9EEDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A776CE-546F-423C-8915-FD919A9EEDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A776CE-546F-423C-8915-FD919A9EEDB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

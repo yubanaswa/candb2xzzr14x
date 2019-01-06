@@ -53,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="RfxDataFactory.cs" />
     <Compile Include="DTO\Trips.cs">
       <DependentUpon>WebContentModel.tt</DependentUpon>
     </Compile>
