@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace RfxDal
 {
     public class Class1
-    {
+    { 
     }
 }
