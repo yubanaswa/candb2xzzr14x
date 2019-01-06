@@ -447,6 +447,14 @@
     <Content Include="Views\Shared\_Team.cshtml" />
     <Content Include="Views\Shared\_Services.cshtml" />
     <Content Include="Views\Shared\_ContactFormGeneric.cshtml" />
+    <Content Include="Views\Shared\_TripHeaders.cshtml" />
+    <Content Include="Views\Trips\SearchTripResults.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RfxDal\RfxDal.csproj">
+      <Project>{0d31e470-1b57-4c63-b0c3-aae1a83a0f58}</Project>
+      <Name>RfxDal</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

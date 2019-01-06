@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{DDB41F43-AA6A-4FCC-A1B3-4D18F38D352B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RfxDal", "RfxDal\RfxDal.csproj", "{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DDB41F43-AA6A-4FCC-A1B3-4D18F38D352B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDB41F43-AA6A-4FCC-A1B3-4D18F38D352B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDB41F43-AA6A-4FCC-A1B3-4D18F38D352B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D31E470-1B57-4C63-B0C3-AAE1A83A0F58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
