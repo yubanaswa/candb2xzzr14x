@@ -176,9 +176,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\adobestock\AdobeStock_121486334.jpeg" />
+    <Content Include="img\adobestock\AdobeStock_239790528.jpeg" />
     <Content Include="img\bg\bg-1.jpg" />
     <Content Include="img\bg\bg-2.jpg" />
     <Content Include="img\bg\bg-3.jpg" />
+    <Content Include="img\bg\bg-4.jpg" />
     <Content Include="img\bg_direction_nav.png" />
     <Content Include="img\blog\img1.jpg" />
     <Content Include="img\blog\img2.jpg" />
@@ -375,11 +378,20 @@
     <Content Include="img\prettyPhoto\default\sprite_prev.png" />
     <Content Include="img\prettyPhoto\default\sprite_x.png" />
     <Content Include="img\prettyPhoto\default\sprite_y.png" />
+    <Content Include="img\team\boy-1.png" />
+    <Content Include="img\team\boy.png" />
+    <Content Include="img\team\girl-1.png" />
+    <Content Include="img\team\girl.png" />
     <Content Include="img\team\img-1.jpg" />
     <Content Include="img\team\img-2.jpg" />
     <Content Include="img\team\img-3.jpg" />
     <Content Include="img\team\img-4.jpg" />
     <Content Include="img\team\img-5.jpg" />
+    <Content Include="img\team\man-1.png" />
+    <Content Include="img\team\man-2.png" />
+    <Content Include="img\team\man-3.png" />
+    <Content Include="img\team\man-4.png" />
+    <Content Include="img\team\man.png" />
     <Content Include="img\trips\1.png" />
     <Content Include="img\trips\10.png" />
     <Content Include="img\trips\2.png" />
@@ -390,7 +402,11 @@
     <Content Include="img\trips\7.png" />
     <Content Include="img\trips\8.png" />
     <Content Include="img\trips\9.png" />
+    <Content Include="img\trips\AdobeStock_121486334.jpeg" />
+    <Content Include="img\trips\AdobeStock_121486334.jpg" />
+    <Content Include="img\trips\AdobeStock_124494642.jpeg" />
     <Content Include="img\trips\AdobeStock_163920760.jpeg" />
+    <Content Include="img\trips\AdobeStock_164845455.jpeg" />
     <Content Include="img\trips\AdobeStock_186706378.jpeg" />
     <Content Include="img\trips\AdobeStock_85100185.jpeg" />
     <Content Include="img\trips\AdobeStock_99872717.jpeg" />
@@ -461,7 +477,6 @@
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
     <Content Include="img\favicon.ico.old" />
-    <Content Include="img\trips\CraftsHeader.jpf" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_LayoutHome.cshtml" />
     <Content Include="Views\Trips\Index.cshtml" />
@@ -475,6 +490,8 @@
     <Content Include="Views\Trips\Festivals.cshtml" />
     <Content Include="Views\Trips\Crafts.cshtml" />
     <Content Include="Views\Trips\Workshops.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Views\Shared\_TestimonialsHeader.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RfxDal\RfxDal.csproj">

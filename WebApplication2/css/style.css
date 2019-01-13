@@ -283,14 +283,14 @@ h2.pagetitle {
 	padding: 0;
 	margin-top: 1.05em;
 }
-.navbar .brand a {
-	padding: 0;
-	color: #fff;
-	font-size: 1.75em;
-	margin-left: 0;
-	font-weight: 400;
-	text-transform:uppercase;
-}
+    .navbar .brand a {
+        padding: 0;
+        color: #fff;
+        font-size: 0.813em; /* 1.75em;*/
+        margin-left: 0;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
 .navbar .brand a:hover {
 	text-decoration: none;
  transition: color .15s linear;
@@ -379,7 +379,7 @@ header .logo {
 }
 
 #main-flexslider ul.slides li p {
-	font-size: 72px;
+	font-size: 20px;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
@@ -517,6 +517,28 @@ section.spacer.bgTripHome {
     height: auto;
     margin: 0;
 }
+
+section.spacer.bgCraftsTour {
+    background: url(../img/trips/AdobeStock_121486334.jpg) 50% 0 no-repeat fixed;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+section.spacer.bgVoluntourism {
+    background: url(../img/trips/AdobeStock_124494642.jpeg) 50% 0 no-repeat fixed;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+section.spacer.bgSunderbans {
+    background: url(../img/trips/AdobeStock_164845455.jpeg) 50% 0 no-repeat fixed;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
 
 
 
