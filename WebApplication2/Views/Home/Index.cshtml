@@ -42,7 +42,7 @@
 </div>
 
 <!-- spacer section -->
-<section class="spacer green">
+@*<section class="spacer green">
     <div class="container">
         <div class="row">
             <div class="span6 alignright flyLeft">
@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>*@
 <!-- end spacer section -->
 <!-- team section -->
 @Html.Partial("_Team");
@@ -66,6 +66,12 @@
 <!-- section: trips -->
 <section id="trips" class="section">
     @Html.Partial("_TripHeaders");
+
+    <div class="container clearfix">
+        <div class="aligncenter">
+            <a href="/Trips" class="btn btn-large btn-theme">All trips</a>
+        </div>
+    </div>
 </section>
 <!-- end section: trips -->
 <!-- section: contact -->

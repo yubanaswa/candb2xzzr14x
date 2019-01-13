@@ -4,8 +4,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Trips</h2>
-<h1>
-    @ViewBag.DisplayName
-</h1>
+<section class="spacer bgTripHome">
+    <blockquote class="large" style="margin-left:30px;margin-right:30px;">
+        Simply by travelling with a conscience, you can make a difference in the lives of others
+    </blockquote>
+</section>
 
+<section id="trips" class="section">
+    @Html.Partial("_TripHeaders");
+</section>
+
+<div class="container container-fluid">
+    <div class="blankdivider30"></div>
+    <a href="#contact"><p>Contact us to book</p></a>
+    <div class="blankdivider30"></div>
+</div>
+
+
+<!-- section: contact -->
+@Html.Partial("_ContactFormGeneric");
+<!-- end section: contact -->

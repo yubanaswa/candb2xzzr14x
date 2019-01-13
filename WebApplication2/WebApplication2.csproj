@@ -390,7 +390,27 @@
     <Content Include="img\trips\7.png" />
     <Content Include="img\trips\8.png" />
     <Content Include="img\trips\9.png" />
+    <Content Include="img\trips\AdobeStock_163920760.jpeg" />
+    <Content Include="img\trips\AdobeStock_186706378.jpeg" />
+    <Content Include="img\trips\AdobeStock_85100185.jpeg" />
+    <Content Include="img\trips\AdobeStock_99872717.jpeg" />
     <Content Include="img\trips\big.jpg" />
+    <Content Include="img\trips\City_88429985.jpeg" />
+    <Content Include="img\trips\City_88429985.jpg" />
+    <Content Include="img\trips\CraftsHeader.jpg" />
+    <Content Include="img\trips\Crafts_186412690.jpeg" />
+    <Content Include="img\trips\Crafts_186412690.jpg" />
+    <Content Include="img\trips\nepal-small-2.jpg" />
+    <Content Include="img\trips\nepal-small.jpg" />
+    <Content Include="img\trips\nepal-trek-small.jpg" />
+    <Content Include="img\trips\sandakfu-landrover.jpg" />
+    <Content Include="img\trips\sandakfu-lodge.jpg" />
+    <Content Include="img\trips\sandakfu-winter.jpg" />
+    <Content Include="img\trips\selapass-arunachal.jpg" />
+    <Content Include="img\trips\sikkim01.jpg" />
+    <Content Include="img\trips\sikkim02.jpg" />
+    <Content Include="img\trips\sikkim03.jpg" />
+    <Content Include="img\trips\tigers-nest.jpg" />
     <Content Include="img\works\1.png" />
     <Content Include="img\works\10.png" />
     <Content Include="img\works\2.png" />
@@ -441,6 +461,7 @@
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
     <Content Include="img\favicon.ico.old" />
+    <Content Include="img\trips\CraftsHeader.jpf" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_LayoutHome.cshtml" />
     <Content Include="Views\Trips\Index.cshtml" />
@@ -449,6 +470,11 @@
     <Content Include="Views\Shared\_ContactFormGeneric.cshtml" />
     <Content Include="Views\Shared\_TripHeaders.cshtml" />
     <Content Include="Views\Trips\SearchTripResults.cshtml" />
+    <Content Include="Views\Trips\Calcutta.cshtml" />
+    <Content Include="Views\Trips\Voluntourism.cshtml" />
+    <Content Include="Views\Trips\Festivals.cshtml" />
+    <Content Include="Views\Trips\Crafts.cshtml" />
+    <Content Include="Views\Trips\Workshops.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RfxDal\RfxDal.csproj">

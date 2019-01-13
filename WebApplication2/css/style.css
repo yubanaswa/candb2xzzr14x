@@ -371,11 +371,11 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-4.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: #444 url(../img/adobestock/AdobeStock_239790528.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #main-flexslider ul.slides li p {
@@ -504,9 +504,25 @@ section.spacer.bg3 {
 	margin:0;	
 }
 
+section.spacer.bgCalcutta {
+    background: url(../img/trips/AdobeStock_163920760.jpeg) 50% 0 no-repeat fixed;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+section.spacer.bgTripHome {
+    background: url(../img/trips/AdobeStock_85100185.jpeg) 50% 0 no-repeat fixed;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+
+
 section.spacer blockquote.large:before {
-	color:#eee;
-	opacity:0.6;
+    color: #eee;
+    opacity: 0.6;
 }
 
 section.spacer blockquote cite {

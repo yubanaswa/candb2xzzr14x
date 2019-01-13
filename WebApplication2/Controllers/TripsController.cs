@@ -25,5 +25,31 @@ namespace WebApplication2.Controllers
         {
             return View("SearchTripResults");
         }
+
+        public ActionResult Calcutta()
+        {
+            return View();
+        }
+
+        public ActionResult Crafts()
+        {
+            return View();
+        }
+
+        public ActionResult Festivals()
+        {
+            return View();
+        }
+
+        //Voluntourism
+        public ActionResult Voluntourism()
+        {
+            return View();
+        }
+
+        public ActionResult Workshops()
+        {
+            return View();
+        }
     }
 }
