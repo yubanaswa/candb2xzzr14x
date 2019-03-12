@@ -4,11 +4,22 @@
 }
 <div id="header-wrapper" class="header-slider">
     <header class="clearfix">
-        <div class="logo">
-            <img src="img/logo.png" alt="" />
-        </div>
+        @*<div class="logo">
+            <img src="img/logo.jpg" alt="" />
+        </div>*@
         <div class="container">
             <div class="row">
+                <div class="span12">
+                    <h1>Calcutta &amp; Beyond</h1>
+                    <h5 style="color:white;">
+                        Like all popular tourist destinations, Calcutta (renamed Kolkata) has its share of standard itineraries, though we endeavour to add an insight to the city, its life, rich heritage and culture but if you prefer exploring the less-travelled roads, something more insightful and interesting, venture out by exploring rural Bengal and the North Eastern India.
+                    </h5>
+                    <div class="blankdivider30"></div>
+                    <h2>We take you <strong>beyond</strong></h2>
+                </div>
+                
+            </div>
+            @*<div class="row">
                 <div class="span12">
                     <div id="main-flexslider" class="flexslider">
                         <ul class="slides">
@@ -33,10 +44,9 @@
                                 </p>
                             </li>
                         </ul>
-                    </div>
-                    <!-- end slider -->
+                    </div>                    
                 </div>
-            </div>
+            </div>*@
         </div>
     </header>
 </div>
@@ -48,7 +58,7 @@
 @Html.Partial("_Services");
 <!-- end section: services -->
 <!-- section: trips -->
-<section id="trips" class="section">
+@*<section id="trips" class="section">
     @Html.Partial("_TripHeaders");
 
     <div class="container clearfix">
@@ -56,7 +66,7 @@
             <a href="/Trips" class="btn btn-large btn-theme">All trips</a>
         </div>
     </div>
-</section>
+</section>*@
 <!-- end section: trips -->
 @*testimonails*@
 @Html.Partial("_TestimonialsHeader");

@@ -370,6 +370,7 @@
     <Content Include="img\icons\lab.png" />
     <Content Include="img\icons\laptop.png" />
     <Content Include="img\logo-image.png" />
+    <Content Include="img\logo.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\prettyPhoto\default\default_thumb.png" />
     <Content Include="img\prettyPhoto\default\loader.gif" />
@@ -514,16 +515,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56282</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:56282/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
